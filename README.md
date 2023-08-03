@@ -15,9 +15,9 @@ Along with the tweetsmall.txt file, you are given two additional files, positive
 
 Write a Bash script that reads each line of tweetsmall.txt and, for each line it reads:
 
--Counts the number of positive words in that tweet.
--Counts the number of negative words in that tweet.
--Writes to a file sentimentpertweet.txt the prevailing sentiment for each processed tweet. 
+-Counts the number of positive words in that tweet.  
+-Counts the number of negative words in that tweet.  
+-Writes to a file sentimentpertweet.txt the prevailing sentiment for each processed tweet.   
 
 For example, for the tweet on line 1 of tweetsmall.txt, the sentimentpertweet.txt file should contain:
 Tweet at line #1 has a positive sentiment if the number of positive words in the tweet is greater than the number of negative words.
